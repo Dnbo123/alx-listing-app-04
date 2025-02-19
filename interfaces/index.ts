@@ -23,12 +23,14 @@ export interface OffersProps {
 }
 
 export interface ReviewProps {
-  rating?: number,
-  id?: string,
-  text: string
+  id: string,
+  propertyId: string,
+  userId: string,
+  rating: number,
+  userName: string,
   avatar: string,
-  name: string,
-  comment?: string
+  comment?: string,
+  createdAt: string
   }
   export interface PropertyProps {
     id: string,
