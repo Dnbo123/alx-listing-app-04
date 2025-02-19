@@ -32,6 +32,11 @@ export interface ReviewProps {
   comment?: string,
   createdAt: string
   }
+ export interface ReviewsResponse {
+    reviews: ReviewProps[];
+    total: number;
+    averageRating: number;
+  }
   export interface PropertyProps {
     id: string,
     name : string,
