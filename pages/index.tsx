@@ -20,7 +20,7 @@ const Pill: React.FC<{ label: string }> = ({ label }) => (
 );
 
 const PropertyCard: React.FC<{ property: typeof PROPERTYLISTINGSAMPLE[0] }> = ({ property }) => (
-  <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+  <div className="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
     <div className="relative">
       <img
         src={property.image}
