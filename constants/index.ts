@@ -1,6 +1,8 @@
+import { PropertyProps } from '@/interfaces';
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
   {
+    id: "1",
     name: "Villa Ocean Breeze",
     address: {
       state: "Seminyak",
@@ -16,9 +18,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-6"
     },
     image: "https://example.com/image1.jpg",
-    discount: ""
+    discount: "",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "2",
     name: "Mountain Escape Chalet",
     address: {
       state: "Aspen",
@@ -34,9 +39,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "5-7"
     },
     image: "https://example.com/image2.jpg",
-    discount: "30"
+    discount: "30",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "3",
     name: "Cozy Desert Retreat",
     address: {
       state: "Palm Springs",
@@ -52,9 +60,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-3"
     },
     image: "https://example.com/image3.jpg",
-    discount: ""
+    discount: "",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "4",
     name: "City Lights Penthouse",
     address: {
       state: "New York",
@@ -70,9 +81,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-4"
     },
     image: "https://example.com/image4.jpg",
-    discount: "15"
+    discount: "15",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "5",
     name: "Riverside Cabin",
     address: {
       state: "Queenstown",
@@ -88,9 +102,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-6"
     },
     image: "https://example.com/image5.jpg",
-    discount: "20"
+    discount: "20",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "6",
     name: "Modern Beachfront Villa",
     address: {
       state: "Sidemen",
@@ -106,9 +123,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "8-10"
     },
     image: "https://example.com/image6.jpg",
-    discount: ""
+    discount: "",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "7",
     name: "Lakeside Chalet",
     address: {
       state: "Banff",
@@ -124,9 +144,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-5"
     },
     image: "https://example.com/image7.jpg",
-    discount: "10"
+    discount: "10",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "8",
     name: "Tropical Garden Villa",
     address: {
       state: "Koh Samui",
@@ -142,9 +165,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "5-6"
     },
     image: "https://example.com/image8.jpg",
-    discount: "25"
+    discount: "25",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "9",
     name: "Urban Loft",
     address: {
       state: "Berlin",
@@ -160,9 +186,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-3"
     },
     image: "https://example.com/image9.jpg",
-    discount: ""
+    discount: "",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "10",
     name: "Secluded Forest Cabin",
     address: {
       state: "Whistler",
@@ -178,9 +207,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "5-7"
     },
     image: "https://example.com/image10.jpg",
-    discount: "40"
+    discount: "40",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "12",
     name: "Cliffside Villa",
     address: {
       state: "Amalfi",
@@ -196,9 +228,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "6-8"
     },
     image: "https://example.com/image11.jpg",
-    discount: "50"
+    discount: "50",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "13",
     name: "Coastal Escape Villa",
     address: {
       state: "Noosa",
@@ -214,9 +249,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-6"
     },
     image: "https://example.com/image12.jpg",
-    discount: ""
+    discount: "",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "14",
     name: "Historical Villa",
     address: {
       state: "Florence",
@@ -232,9 +270,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-4"
     },
     image: "https://example.com/image13.jpg",
-    discount: "35"
+    discount: "35",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "15",
     name: "Downtown Apartment",
     address: {
       state: "Tokyo",
@@ -250,9 +291,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2"
     },
     image: "https://example.com/image14.jpg",
-    discount: ""
+    discount: "",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "15",
     name: "Luxury Safari Lodge",
     address: {
       state: "Serengeti",
@@ -268,9 +312,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "6-8"
     },
     image: "https://example.com/image15.jpg",
-    discount: "20"
+    discount: "20",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "16",
     name: "Countryside Cottage",
     address: {
       state: "Cotswolds",
@@ -286,9 +333,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2-4"
     },
     image: "https://example.com/image16.jpg",
-    discount: "25"
+    discount: "25",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "17",
     name: "Riverfront Mansion",
     address: {
       state: "Paris",
@@ -304,9 +354,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "6-8"
     },
     image: "https://example.com/image17.jpg",
-    discount: "30"
+    discount: "30",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "18",
     name: "Ski Chalet",
     address: {
       state: "Zermatt",
@@ -322,9 +375,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-5"
     },
     image: "https://example.com/image18.jpg",
-    discount: ""
+    discount: "20",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "19",
     name: "Island Paradise Villa",
     address: {
       state: "Mahe",
@@ -340,9 +396,12 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "8-10"
     },
     image: "https://example.com/image19.jpg",
-    discount: "60"
+    discount: "60",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   },
   {
+    id: "20",
     name: "Clifftop Retreat",
     address: {
       state: "Cape Town",
@@ -358,6 +417,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "4-5"
     },
     image: "https://example.com/image20.jpg",
-    discount: ""
+    discount: "",
+    description: "This villa is located in the heart of Nairobi",
+    reviews: []
   }
 ];
